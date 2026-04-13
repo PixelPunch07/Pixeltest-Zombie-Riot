@@ -2,7 +2,7 @@
 #pragma semicolon 1
 #pragma newdecls required
 
-static bool EscapeModeForNpc;
+
 static float HealthMulti;
 static int HealthBonus;
 static int EnemyChance;
@@ -168,7 +168,6 @@ void Freeplay_ResetAll()
 	ExplodeNPCDamage = 0;
 	ExplodingNPC = false;
 	IsExplodeWave = false;
-	EscapeModeForNpc = false;
 	EnemyShields = 0;
 	VoidBuff = 0;
 	VictoriaBuff = false;
